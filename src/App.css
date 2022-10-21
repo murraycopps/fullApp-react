@@ -1,0 +1,146 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+main {
+  text-align: center;
+  vertical-align: center;
+}
+.wide{
+  width: 100%;
+}
+.title-box{
+  margin:0;
+}
+.section{
+  padding: 0;
+  margin: 0;
+}
+section{
+  margin-top: 10px;
+}
+.pace-split-container{
+  position: absolute;
+  bottom: 0.3rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+#second-input{
+  left:50%; 
+  width:50%
+}
+
+
+html body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background: rgb(246, 89, 0);
+}
+
+
+body {
+  top:0;
+  height: inherit;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+section {
+  width: 100vw;
+  margin-top: 35px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.is-m-large{
+  font-size: 2rem;
+}
+.title-box{
+  text-align: center;
+  margin-top: 10px;
+}
+.main-title{
+  font-family: Times New Roman;
+  font-size: 3rem;
+  color: #262626;
+  font-weight:  700;
+}
+.half-container{
+  width: 49%;
+  height: 2.5em;
+  display: inline-block;
+  
+}
+#disDrop{
+  padding: 0.3em;
+}
+.half-input{
+  position: absolute;
+  display: inline-block;
+  width: 50.3%;
+  top: 0;
+  left: 0;
+  box-shadow: none;
+  z-index: 1;
+  border: 0px;
+  border-radius:0;
+}
+.time-label{
+  position: absolute; 
+  left: 47.5%;
+  top: 0;
+  display:inline-block;
+  color: black;
+  height: 1em;
+  font-size: 3rem;
+  z-index: 2;
+  text-align: center;
+}
+.time-input{
+  position: relative;
+  background-color: white;
+  padding:0;  
+  width: 100%;
+  height: 100%;
+}
+.bottom{
+  z-index: 1;
+}
+.top{
+  z-index: 5;
+}
+.overlaying{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width:100%;
+}
+option{
+  font-size: .5em;
+}
+.hide{
+  display: none;
+}
+.output-box{
+  pointer-events: none;
+  margin: 1rem;
+  background-color: #fff;
+  margin-top: 5%;
+  width: calc(100vw - 2rem);
+  text-align: center;
+  margin-top: 20px;
+}
+.half-button{
+    width: 49%;
+    display: inline-block;
+  }
+.cols{
+  padding: 0;
+  margin: 0;
+}
+span{
+  pointer-events: none;
+}
+.m-wide{
+  width: calc(100vw - 2rem);
+}

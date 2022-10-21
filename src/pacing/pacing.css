@@ -1,0 +1,36 @@
+#exitCustom{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    color:#ff0033!important;
+    width: 4rem;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    display: inline-flex;
+  }
+  #pace-split{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.5rem;
+    height: calc(10em / 3);
+  }
+  #icon{
+    pointer-events: none;
+  }
+  #pacing-output {
+      color: #262626;
+      font-size: 2rem;
+      font-family: Times New Roman;
+      width: 100%;
+      height: 100%;
+      margin-left: 20px;
+      text-align: left;
+      white-space: pre-wrap;
+  }
+  
+  .pacing-output-box{
+    height: 65vh;
+  }
+  

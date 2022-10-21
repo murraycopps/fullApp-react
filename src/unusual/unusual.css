@@ -1,0 +1,67 @@
+#u-output{
+    font-size: 1.9rem;
+    font-family: Times New Roman;
+    color: #262626;
+    width: calc(100% - 20px);
+    height: 100%;
+    margin-left: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+  }
+  .u-m-wide{
+    width:918px;
+  }
+  .u-time-input{
+    width:100%;
+    height: 2.5em;
+  }
+  .third-input{
+    position: absolute;
+    display: inline-block;
+    width: 33.3%;
+    top: 0;
+    box-shadow: none;
+    z-index: 1;
+    border: 0px;
+    border-radius: 0;
+  }
+  .u-left{
+    left: 32.1%;
+  }
+  .u-right{
+    left:65.1%
+  }
+  #u-hour{
+    left:0;
+  }
+  #u-min{
+    left: 33.3%;
+  }
+  #u-sec{
+    right:0;
+  }
+  .u-plus{
+    position: absolute;
+    font-size: 6rem;
+    top: 0;
+    right: 0;
+    color: black;
+    height: .8em;
+    width: .8em;
+    padding: 0;
+    border: 0;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    align-items: center;
+    display: inline-flex;
+    background: transparent;
+  }
+  .red{
+    color: red;
+  }
+  #u-output-box{
+    position: relative;
+    height: 50vh;
+    pointer-events: all;
+  }

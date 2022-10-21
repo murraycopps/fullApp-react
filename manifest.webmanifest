@@ -1,0 +1,14 @@
+{
+  "background_color": "#F65900",
+  "description": "Convert times at different distances at the same pace",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "public/favicon.svg",
+      "type": "image/png", "sizes": "410x404"
+    }
+  ],
+  "name": "Pacing Calc",
+  "short_name": "Pace Calc",
+  "start_url": "/index.html"
+}
